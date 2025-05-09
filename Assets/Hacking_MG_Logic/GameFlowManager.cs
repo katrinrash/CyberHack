@@ -16,7 +16,6 @@ public class GameFlowManager : MonoBehaviour
     {
         gameUI.SetActive(false);
         winUI.SetActive(true);
-        SceneLoader.Instance.UnloadMinigameScene(2f);
     }
     public void GameOver()
     {
